@@ -4,9 +4,10 @@ node / express.js github integration offering a single endpoint (/user) which wi
 
 # Usage
 
-copy / rename `default_config.json` to `config.json` and fill in the relevant values so you can avoid hitting the anonymous GitHub API limits.
+0. copy / rename `default_config.json` to `config.json` and fill in the relevant values so you can avoid hitting the anonymous GitHub API limits.
 
-`npm install`
-`node app.js`
+1. `npm install`
 
-...and direct your browser to localhost:3000/user/:username 
+2. `node app.js`
+
+3. direct your browser to localhost:3000/user/:username 
