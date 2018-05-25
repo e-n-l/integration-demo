@@ -1,0 +1,9 @@
+html
+  head
+    title= title
+  body
+    ul
+      each repo in repos
+        li
+          a(href= repo.html_url)= repo.name
+          = ': ' + repo.prs

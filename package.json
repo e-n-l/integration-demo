@@ -1,0 +1,21 @@
+{
+  "name": "prhawk",
+  "version": "1.0.0",
+  "description": "github pull request visibility",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "integration-demo"
+  },
+  "author": "Ian Liddle",
+  "license": "ISC",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "express": "^4.16.3",
+    "pug": "^2.0.3",
+    "request": "^2.87.0"
+  }
+}
